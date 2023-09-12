@@ -14,16 +14,19 @@ def test_create_dataframe():
     dataframe = create_dataframe()
     assert len(dataframe) == 5
 
-def test_calculate_mean_weight(sample_dataframe):
-    mean_weight = calculate_mean_weight(sample_dataframe)
+def test_calculate_mean_weight():
+    data = create_dataframe()
+    mean_weight = calculate_mean_weight(data)
     assert mean_weight == 80.0
 
-def test_calculate_sum_weight(sample_dataframe):
-    sum_weight = calculate_sum_weight(sample_dataframe)
+def test_calculate_sum_weight():
+    data = create_dataframe()
+    sum_weight = calculate_sum_weight(data)
     assert sum_weight == 400
 
-def test_calculate_correlation_matrix(sample_dataframe):
-    correlation_matrix = calculate_correlation_matrix(sample_dataframe)
+def test_calculate_correlation_matrix():
+    data = create_dataframe()
+    correlation_matrix = calculate_correlation_matrix(data)
     assert correlation_matrix.to_pandas().equals(
-        sample_dataframe[['age', 'height', 'weight']].corr().to_pandas()
+        data[['age', 'height', 'weight']].corr().to_pandas()
     )
