@@ -1,5 +1,6 @@
 import polars as pl
-from main import create_dataframe, calculate_mean_weight, calculate_sum_weight, calculate_correlation_matrix
+from main import create_dataframe, calculate_mean_weight
+from main import calculate_sum_weight, calculate_correlation_matrix
 
 def sample_dataframe():
     data = {
