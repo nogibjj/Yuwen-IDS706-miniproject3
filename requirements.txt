@@ -11,6 +11,7 @@ uvicorn==0.18.3
 #data
 pandas == 2.1.0
 polars == 0.19.2
+pyarrow == 13.0.0
 
 #rust based linter
 ruff==0.0.284
