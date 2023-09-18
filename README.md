@@ -3,7 +3,7 @@
 
 **Summary**
 
-The objective of Week3 mini project was to create a script utilizing  for descriptive statistics. This script has been integrated with the Python CiCd automation template: https://github.com/Candice1121/IDS706-template.
+The objective of  Week 3 mini project is to create a script utilizing descriptive statistics. This script has been integrated with the Python CiCd automation template: https://github.com/Candice1121/IDS706-template.
 
 ---
 
@@ -15,9 +15,9 @@ You can find the relevant code in the following files:
 
 ---
 
-These functions enable a simple dataset and calculate its descriptive statistics for this dataset.
+These functions enable the creation of a simple dataset and the calculation of its descriptive statistics.
 
 **Modification**
 
-1. update requirements.txt by adding pyarrosw and polars modules
-2. update main.py and test_main.py file for polar creating dataframe and Polars Descriptive Statistics Script
+1. Update requirements.txt by adding pyarrow and polars modules
+2. Update main.py and test_main.py files for Polars Descriptive Statistics Script
