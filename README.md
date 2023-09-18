@@ -28,3 +28,10 @@ These functions enable the creation of a simple dataset and the calculation of i
 1. This repo creates this simple data frame using polars
    ![Local Image](/images/dataframe.png)
 2. Three descriptive functions are included to test the statistical features of this dataframe and are tested in test_main.py
+   ![Local Image](/images/descriptive.png)
+3. make lint, test, format
+   make lint : Check poorly structured code and stylistic errors.
+   make test : It passed tests on function I defined in main.py
+   make format : Apply formatting checks
+   To make these files, simply type make in your terminal and it will compile files.
+   ![Local Image](/images/make.png)
