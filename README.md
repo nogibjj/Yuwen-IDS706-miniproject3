@@ -21,3 +21,10 @@ These functions enable the creation of a simple dataset and the calculation of i
 
 1. Update requirements.txt by adding pyarrow and polars modules
 2. Update main.py and test_main.py files for Polars Descriptive Statistics Script
+
+
+**Description**
+
+1. This repo creates this simple data frame using polars
+   ![Local Image](/images/dataframe.png)
+2. Three descriptive functions are included to test the statistical features of this dataframe and are tested in test_main.py
